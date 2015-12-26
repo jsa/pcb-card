@@ -14,6 +14,7 @@ UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Aesthe
 UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
 UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Electromechanical.lbr"
 UsedLibrary="/Applications/EAGLE-7.1.0/lbr/jne.lbr"
+UsedLibrary="pcb-card.lbr"
 
 [Desktop]
 Screen="1440 900"
