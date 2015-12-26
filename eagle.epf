@@ -1,0 +1,19 @@
+[Eagle]
+Version="07 05 00"
+Platform="Mac OS X"
+Serial="7226EB6020-LSR-WLM-1SS"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-7.5.0/lbr/jumper.lbr"
+UsedLibrary="/Applications/EAGLE-7.5.0/lbr/testpad.lbr"
+UsedLibrary="/Users/jne/Shared/Projects/eagle-lib/dubec.lbr"
+UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+UsedLibrary="/Users/jne/Shared/Projects/SparkFun-Eagle-Libraries/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Applications/EAGLE-7.1.0/lbr/jne.lbr"
+
+[Desktop]
+Screen="1440 900"
