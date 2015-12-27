@@ -4254,6 +4254,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="MOSI" library="testpad" deviceset="TP" device="TP08R" value="TPTP08R"/>
 <part name="SCK" library="testpad" deviceset="TP" device="TP08R" value="TPTP08R"/>
 <part name="RESET" library="testpad" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="VCC" library="testpad" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="GND" library="testpad" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4298,6 +4302,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="MOSI" gate="G$1" x="-17.78" y="50.8" rot="R90"/>
 <instance part="SCK" gate="G$1" x="-17.78" y="48.26" rot="R90"/>
 <instance part="RESET" gate="G$1" x="-17.78" y="45.72" rot="R90"/>
+<instance part="VCC" gate="G$1" x="-17.78" y="43.18" rot="R90"/>
+<instance part="GND" gate="G$1" x="-17.78" y="40.64" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="-12.7" y="43.18" rot="R270"/>
+<instance part="GND4" gate="1" x="-12.7" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -4316,6 +4324,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="22.86" y="22.86"/>
+</segment>
+<segment>
+<pinref part="VCC" gate="G$1" pin="TP"/>
+<wire x1="-15.24" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -4433,6 +4446,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="33.02" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="22.86" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND" gate="G$1" pin="TP"/>
+<wire x1="-15.24" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$9" class="0">
